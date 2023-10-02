@@ -1,1 +1,5 @@
 # CSE 15L Lab 1 Report
+![Image](ss1.png)
+* The cd command in used to move between directories. Since there was no arguement, it didn't do anything.
+* the ls command lists out the contents inside the current directory. So the current directory is /home so it lists Lecture1.
+* the cat command prints contents of a file. If there is no arguement, it will just print out what you write in the terminal, you can exit by ctrl+c.
