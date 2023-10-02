@@ -8,3 +8,8 @@
 * "cd lecture1" command changes the current directory from home to lecture1.
 * "ls lecture1 lists out the contents of the lecture1 directory.
 * "cat lecture1" returns an error because this command is meant for files not directories.
+
+![Image](ss3.png)
+* "cd Hello.java" command returns an error as Hello.java is a file and not a directory but the command is meant for directories.
+* "ls Hello.java" command returns the name of the file passed as arguement/
+* "cat Hello.java" prints out the content inside the file Hello.java which was passed as arguement.
