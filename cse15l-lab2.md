@@ -13,5 +13,11 @@
   - query: This is called by getQuery() , and this value is changed in the screenshots. Initally it’s value is s=Hello , and it changes to s=How%27s%20it%20going.
  
  # Part 2
- 
-
+ ## Path to Private key
+ ![Image](ss9.png)
+ ## Path to Public key
+ ![Image](ss8.png)
+ ## Logginf into Ieng6 account without password
+ ![Image](ss7.png)
+ # Part 3
+During the 2nd and 3rd labs, I acquired valuable skills, including how to connect to remote servers using our laptop terminals. I foresee this being immensely beneficial during internships where connecting to external servers might be a necessity. Additionally, I gained insights into hosting servers online and understanding the processing of online requests. I also became familiar with several terminal commands, such as mkdir and scp.
