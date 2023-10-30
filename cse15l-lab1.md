@@ -5,7 +5,7 @@
 * the cat command prints contents of a file. If there is no arguement, it will just print out what you write in the terminal, you can exit by ctrl+c.
 
 ![Image](ss2.png)
-* "cd lecture1" command changes the current directory from home to lecture1.
+* The cd command, standing for "change directory", is an essential terminal command used to navigate the file system. By specifying a directory path as its argument, users can move to different locations within the file hierarchy. Simply typing cd with no arguments transports the user to their home directory. Furthermore, shortcuts like cd .. allow users to move up one directory level, making directory traversal efficient and intuitive.
 * "ls lecture1 lists out the contents of the lecture1 directory.
 * "cat lecture1" returns an error because this command is meant for files not directories.
 
