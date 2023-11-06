@@ -58,7 +58,7 @@ class StringServer {
  ## Path to Private key
  ![Image](ss9.png)
  ## Path to Public key
- ![Image](ss8.png)
+ ![Image](ss10.png)
  ## Logginf into Ieng6 account without password
  ![Image](ss7.png)
  # Part 3
