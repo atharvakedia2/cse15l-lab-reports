@@ -54,12 +54,13 @@ class StringServer {
   - num: This integer field holds the sequence number for the requests received. Starting from 1 as shown in the earlier screenshot, it increments to 2 in the current request.
   - parameters: This array breaks down the query into segments divided by the = sign. In this instance, s is the segment before the sign, and How are you follows after.
   - line: This string displays on the server what follows the = in the URL within the query. For this screenshot, line is 1. Hello \n2. How are you. It is updated with each new request     made.
- # Part 2
- ## Path to Private key
- ![Image](ss9.png)
- ## Path to Public key
- ![Image](ss10.png)
- ## Logginf into Ieng6 account without password
- ![Image](ss7.png)
- # Part 3
+ 
+# Part 2
+## Path to Private key
+![Image](ss9.png)
+## Path to Public key
+![Image](ss10.png)
+## Logginf into Ieng6 account without password
+![Image](ss7.png)
+# Part 3
 During the 2nd and 3rd labs, I acquired valuable skills, including how to connect to remote servers using our laptop terminals. I foresee this being immensely beneficial during internships where connecting to external servers might be a necessity. Additionally, I gained insights into hosting servers online and understanding the processing of online requests. I also became familiar with several terminal commands, such as mkdir and scp.
