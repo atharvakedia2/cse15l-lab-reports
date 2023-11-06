@@ -1,6 +1,7 @@
 # Lab Report 2
 # Part 1
 ## Code
+```
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
@@ -31,6 +32,7 @@ class StringServer {
         Server.start(port, new Handler());
     }
 }
+```
 ## Server
 ![Image](ss5.png)
 
