@@ -63,4 +63,4 @@ class StringServer {
 ## Logginf into Ieng6 account without password
 ![Image](ss7.png)
 # Part 3
-During the 2nd and 3rd labs, I acquired valuable skills, including how to connect to remote servers using our laptop terminals. I foresee this being immensely beneficial during internships where connecting to external servers might be a necessity. Additionally, I gained insights into hosting servers online and understanding the processing of online requests. I also became familiar with several terminal commands, such as mkdir and scp.
+In labs two and three, I really got the hang of linking up to remote servers through the command line on my laptop. This is a skill I can see coming in super handy during internships, especially when I need to dial into a company's servers from a distance. I also got a good grip on how to get servers up and running online, and what goes on behind the scenes when we shoot requests across the web. Plus, I picked up a few handy terminal commands, like mkdir and scp, which I'm sure will be useful down the line.
