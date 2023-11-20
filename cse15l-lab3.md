@@ -55,7 +55,7 @@ static void reverseInPlace(int[] arr) {
 
 ## Part 2
 # grep
-# -i option
+# -i
 - Example 1
   ```
   $ grep -i 'hello' example1.txt
@@ -73,7 +73,7 @@ In this case I entered the word "hello" as input and you can see that it gave an
   ```It can also be used for checking patterns through multiple files.
 In this case I used to it to search for places where the word "apple" shows up and since there are no instances of winter it does not give us an output.
 
-# -v option
+# -v
 - Example 1
   ```
   $ grep -v 'world' example1.txt
@@ -94,7 +94,7 @@ In this case I entered the word "world" as input and it outputs only HELLO WORLD
   ```
 This command selects lines from example2.txt that do not contain "Banana". It excludes the line with "Banana" but includes "banana" due to case sensitivity.
 
-# -n option
+# -n
 - Example 1
   ```
   $ grep -n 'world' example1.txt
@@ -114,7 +114,7 @@ This command searches for "world" in example1.txt and displays the matching line
   ```
 This command finds "banana" in example2.txt and displays the lines that contain it, along with their line numbers.
 
-# -m option
+# -m
 - Example 1
   ```
   $ grep -m 1 'world' example1.txt
