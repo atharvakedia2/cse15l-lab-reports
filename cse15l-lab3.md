@@ -20,11 +20,11 @@ public void testReverseInPlace() {
 }
 ```
 ## Symptom
-# Input:{1,2,3,4}
+Input:{1,2,3,4}
 
 ![Image](ss11.png)
 
-# Input:{3}
+Input:{3}
 
 ![Image](ss12.png)
 
