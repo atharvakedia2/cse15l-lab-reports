@@ -19,15 +19,38 @@ public void testReverseInPlace() {
     assertArrayEquals(new int[]{ 3 }, input1);
 }
 ```
-##Symptom
+## Symptom
 # Input:{1,2,3,4}
 
-![Image](ss5.png)
+![Image](ss11.png)
 
 # Input:{3}
 
-![Image](ss5.png)
+![Image](ss12.png)
 
-![Image](ss7.png)
-# Part 3
-In labs two and three, I really got the hang of linking up to remote servers through the command line on my laptop. This is a skill I can see coming in super handy during internships, especially when I need to dial into a company's servers from a distance. I also got a good grip on how to get servers up and running online, and what goes on behind the scenes when we shoot requests across the web. Plus, I picked up a few handy terminal commands, like mkdir and scp, which I'm sure will be useful down the line.
+## The Bug
+In the initial code, the first half of the array's values were replaced, but the second half's values were incorrectly swapped. This issue arose because the values intended for the second half were lost when the first half was altered. To resolve this, a second array was introduced to hold the original array's values. Then, each value in the original array was replaced with the corresponding values from the second array, starting from the last index. This approach ensured the correct values were inserted into the array as intended.
+
+# Original Code
+```
+static void reverseInPlace(int[] arr) {
+  for(int i = 0; i < arr.length; i += 1) {
+    arr[i] = arr[arr.length - i - 1];
+  }
+}
+```
+
+# Fixed Code
+```
+static void reverseInPlace(int[] arr) {
+  int[] newArray = new int[arr.length];
+  for(int i = 0;i < arr.length;i++) {
+    newArray[i] = arr[i];
+  }
+  for(int i = 0; i < arr.length; i += 1) {
+    arr[i] = newArray[arr.length - i - 1];
+ }
+}
+```
+
+## Part 2
