@@ -135,7 +135,7 @@ This command stops after finding the first two instances of "apple" in example2.
 
 ## Acknowledgement of Source(GPT4)
 
-I would like to acknowledge the usage of GPT4 in the completeion of Lab Report 4.
+I would like to acknowledge the usage of GPT4 in the completeion of Lab Report 3.
 Following are my promts and its responses:
 - Prompt: grep command line options
 - Output: 
