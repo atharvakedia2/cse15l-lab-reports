@@ -31,11 +31,11 @@
 ![Image](ss19.png)
 ```bash test.sh```
 ## Pushing changes
-![Image](ss20.png)
+![Image](ss23.png)
 
 ```git add .``` stage changes for the next commit for all files in the directory
 ```git commit -m "Changes made"``` save the changes for all files in your local r
 ```git push``` save the changes to the github repository
 Below is a screenshot that reflects that changes were made in the forked repository on my github.
 
-![Image](ss21.png)
+![Image](ss24.png)
