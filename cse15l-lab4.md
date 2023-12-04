@@ -8,7 +8,7 @@
 
 ``` ssh cs15lfa23nj@ieng6.ucsd.edu ```
 ## Cloning fork
-![Image](ss16.png)
+![Image](ss21.png)
 
 ``` git clone git@github.com:atharvakedia2/lab7.git ```
 ## Test
