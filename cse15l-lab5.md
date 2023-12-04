@@ -97,13 +97,11 @@ class ListExamples {
 
 
 - `ListExamplesTests.java`
-
 ```
 import static org.junit.Assert.*;
 import org.junit.*;
 import java.util.*;
 import java.util.ArrayList;
-
 
 public class ListExamplesTests {
 	@Test(timeout = 500)
@@ -121,7 +119,6 @@ public class ListExamplesTests {
         }
 		
 }
-
 ```
 
 
@@ -130,6 +127,7 @@ public class ListExamplesTests {
 javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
 java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ListExamplesTests
 ```
+
 
 - The commands I entered in the command line was `bash test.sh`
 
